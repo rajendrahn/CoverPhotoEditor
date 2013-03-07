@@ -7,23 +7,12 @@
 //
 
 #import "HomeViewController.h"
+#import "iCarousel.h"
 
-@interface HomeViewController ()
+@interface HomeViewController () <iCarouselDataSource, iCarouselDelegate>
 
 @end
 
 @implementation HomeViewController
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end
