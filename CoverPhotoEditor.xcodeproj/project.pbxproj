@@ -16,8 +16,11 @@
 		A5D0B47316E89D04002E79E2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A5D0B47216E89D04002E79E2 /* Default.png */; };
 		A5D0B47516E89D04002E79E2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5D0B47416E89D04002E79E2 /* Default@2x.png */; };
 		A5D0B47716E89D04002E79E2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5D0B47616E89D04002E79E2 /* Default-568h@2x.png */; };
-		A5D0B47A16E89D04002E79E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D0B47916E89D04002E79E2 /* ViewController.m */; };
-		A5D0B47D16E89D04002E79E2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5D0B47B16E89D04002E79E2 /* ViewController.xib */; };
+		A5D0B48716E89D66002E79E2 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D0B48516E89D66002E79E2 /* HomeViewController.m */; };
+		A5D0B48816E89D66002E79E2 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5D0B48616E89D66002E79E2 /* HomeViewController.xib */; };
+		A5D0B49016E89DAB002E79E2 /* ArrayUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D0B48C16E89DAB002E79E2 /* ArrayUtils.m */; };
+		A5D0B49116E89DAB002E79E2 /* ViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D0B48F16E89DAB002E79E2 /* ViewUtils.m */; };
+		A5D0B49616E89E2D002E79E2 /* CoverPhotoTemplates.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5D0B49516E89E2D002E79E2 /* CoverPhotoTemplates.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,9 +37,14 @@
 		A5D0B47216E89D04002E79E2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		A5D0B47416E89D04002E79E2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		A5D0B47616E89D04002E79E2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		A5D0B47816E89D04002E79E2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A5D0B47916E89D04002E79E2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A5D0B47C16E89D04002E79E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		A5D0B48416E89D66002E79E2 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		A5D0B48516E89D66002E79E2 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		A5D0B48616E89D66002E79E2 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		A5D0B48B16E89DAB002E79E2 /* ArrayUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayUtils.h; sourceTree = "<group>"; };
+		A5D0B48C16E89DAB002E79E2 /* ArrayUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayUtils.m; sourceTree = "<group>"; };
+		A5D0B48E16E89DAB002E79E2 /* ViewUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewUtils.h; sourceTree = "<group>"; };
+		A5D0B48F16E89DAB002E79E2 /* ViewUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewUtils.m; sourceTree = "<group>"; };
+		A5D0B49516E89E2D002E79E2 /* CoverPhotoTemplates.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CoverPhotoTemplates.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +91,11 @@
 		A5D0B46616E89D03002E79E2 /* CoverPhotoEditor */ = {
 			isa = PBXGroup;
 			children = (
+				A5D0B49216E89E04002E79E2 /* Resources */,
+				A5D0B48916E89DAB002E79E2 /* Library */,
+				A5D0B48316E89D66002E79E2 /* Controller */,
 				A5D0B46F16E89D04002E79E2 /* AppDelegate.h */,
 				A5D0B47016E89D04002E79E2 /* AppDelegate.m */,
-				A5D0B47816E89D04002E79E2 /* ViewController.h */,
-				A5D0B47916E89D04002E79E2 /* ViewController.m */,
-				A5D0B47B16E89D04002E79E2 /* ViewController.xib */,
 				A5D0B46716E89D04002E79E2 /* Supporting Files */,
 			);
 			path = CoverPhotoEditor;
@@ -105,6 +113,67 @@
 				A5D0B47616E89D04002E79E2 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5D0B48316E89D66002E79E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A5D0B48416E89D66002E79E2 /* HomeViewController.h */,
+				A5D0B48516E89D66002E79E2 /* HomeViewController.m */,
+				A5D0B48616E89D66002E79E2 /* HomeViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A5D0B48916E89DAB002E79E2 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				A5D0B48A16E89DAB002E79E2 /* ArrayUtils */,
+				A5D0B48D16E89DAB002E79E2 /* ViewUtils */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		A5D0B48A16E89DAB002E79E2 /* ArrayUtils */ = {
+			isa = PBXGroup;
+			children = (
+				A5D0B48B16E89DAB002E79E2 /* ArrayUtils.h */,
+				A5D0B48C16E89DAB002E79E2 /* ArrayUtils.m */,
+			);
+			path = ArrayUtils;
+			sourceTree = "<group>";
+		};
+		A5D0B48D16E89DAB002E79E2 /* ViewUtils */ = {
+			isa = PBXGroup;
+			children = (
+				A5D0B48E16E89DAB002E79E2 /* ViewUtils.h */,
+				A5D0B48F16E89DAB002E79E2 /* ViewUtils.m */,
+			);
+			path = ViewUtils;
+			sourceTree = "<group>";
+		};
+		A5D0B49216E89E04002E79E2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A5D0B49316E89E04002E79E2 /* Interface */,
+				A5D0B49416E89E04002E79E2 /* Plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A5D0B49316E89E04002E79E2 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		A5D0B49416E89E04002E79E2 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				A5D0B49516E89E2D002E79E2 /* CoverPhotoTemplates.plist */,
+			);
+			path = Plist;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,7 +231,8 @@
 				A5D0B47316E89D04002E79E2 /* Default.png in Resources */,
 				A5D0B47516E89D04002E79E2 /* Default@2x.png in Resources */,
 				A5D0B47716E89D04002E79E2 /* Default-568h@2x.png in Resources */,
-				A5D0B47D16E89D04002E79E2 /* ViewController.xib in Resources */,
+				A5D0B48816E89D66002E79E2 /* HomeViewController.xib in Resources */,
+				A5D0B49616E89E2D002E79E2 /* CoverPhotoTemplates.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +245,9 @@
 			files = (
 				A5D0B46D16E89D04002E79E2 /* main.m in Sources */,
 				A5D0B47116E89D04002E79E2 /* AppDelegate.m in Sources */,
-				A5D0B47A16E89D04002E79E2 /* ViewController.m in Sources */,
+				A5D0B48716E89D66002E79E2 /* HomeViewController.m in Sources */,
+				A5D0B49016E89DAB002E79E2 /* ArrayUtils.m in Sources */,
+				A5D0B49116E89DAB002E79E2 /* ViewUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,14 +260,6 @@
 				A5D0B46A16E89D04002E79E2 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		A5D0B47B16E89D04002E79E2 /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A5D0B47C16E89D04002E79E2 /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -265,6 +329,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoverPhotoEditor/CoverPhotoEditor-Prefix.pch";
 				INFOPLIST_FILE = "CoverPhotoEditor/CoverPhotoEditor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -276,6 +341,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoverPhotoEditor/CoverPhotoEditor-Prefix.pch";
 				INFOPLIST_FILE = "CoverPhotoEditor/CoverPhotoEditor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
