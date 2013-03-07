@@ -21,6 +21,8 @@
 		A5D0B49016E89DAB002E79E2 /* ArrayUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D0B48C16E89DAB002E79E2 /* ArrayUtils.m */; };
 		A5D0B49116E89DAB002E79E2 /* ViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D0B48F16E89DAB002E79E2 /* ViewUtils.m */; };
 		A5D0B49616E89E2D002E79E2 /* CoverPhotoTemplates.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5D0B49516E89E2D002E79E2 /* CoverPhotoTemplates.plist */; };
+		B1F9268416E8D19800025D6B /* LayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F9268216E8D19800025D6B /* LayoutViewController.m */; };
+		B1F9268516E8D19800025D6B /* LayoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1F9268316E8D19800025D6B /* LayoutViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,9 @@
 		A5D0B48E16E89DAB002E79E2 /* ViewUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewUtils.h; sourceTree = "<group>"; };
 		A5D0B48F16E89DAB002E79E2 /* ViewUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewUtils.m; sourceTree = "<group>"; };
 		A5D0B49516E89E2D002E79E2 /* CoverPhotoTemplates.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CoverPhotoTemplates.plist; sourceTree = "<group>"; };
+		B1F9268116E8D19800025D6B /* LayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutViewController.h; sourceTree = "<group>"; };
+		B1F9268216E8D19800025D6B /* LayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutViewController.m; sourceTree = "<group>"; };
+		B1F9268316E8D19800025D6B /* LayoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LayoutViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +126,9 @@
 				A5D0B48416E89D66002E79E2 /* HomeViewController.h */,
 				A5D0B48516E89D66002E79E2 /* HomeViewController.m */,
 				A5D0B48616E89D66002E79E2 /* HomeViewController.xib */,
+				B1F9268116E8D19800025D6B /* LayoutViewController.h */,
+				B1F9268216E8D19800025D6B /* LayoutViewController.m */,
+				B1F9268316E8D19800025D6B /* LayoutViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -233,6 +241,7 @@
 				A5D0B47716E89D04002E79E2 /* Default-568h@2x.png in Resources */,
 				A5D0B48816E89D66002E79E2 /* HomeViewController.xib in Resources */,
 				A5D0B49616E89E2D002E79E2 /* CoverPhotoTemplates.plist in Resources */,
+				B1F9268516E8D19800025D6B /* LayoutViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +257,7 @@
 				A5D0B48716E89D66002E79E2 /* HomeViewController.m in Sources */,
 				A5D0B49016E89DAB002E79E2 /* ArrayUtils.m in Sources */,
 				A5D0B49116E89DAB002E79E2 /* ViewUtils.m in Sources */,
+				B1F9268416E8D19800025D6B /* LayoutViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +376,7 @@
 				A5D0B48216E89D04002E79E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
