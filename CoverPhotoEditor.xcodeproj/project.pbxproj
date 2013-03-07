@@ -21,6 +21,10 @@
 		A5D0B49016E89DAB002E79E2 /* ArrayUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D0B48C16E89DAB002E79E2 /* ArrayUtils.m */; };
 		A5D0B49116E89DAB002E79E2 /* ViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D0B48F16E89DAB002E79E2 /* ViewUtils.m */; };
 		A5D0B49616E89E2D002E79E2 /* CoverPhotoTemplates.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5D0B49516E89E2D002E79E2 /* CoverPhotoTemplates.plist */; };
+		DEF1CA9A16E8A4F300759F1E /* PhotoEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF1CA9816E8A4F300759F1E /* PhotoEditorViewController.m */; };
+		DEF1CA9B16E8A4F300759F1E /* PhotoEditorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF1CA9916E8A4F300759F1E /* PhotoEditorViewController.xib */; };
+		DEF1CA9E16E8A5A100759F1E /* PhotoEditOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEF1CA9D16E8A5A100759F1E /* PhotoEditOptions.plist */; };
+		DEF1CAA116E8AD1700759F1E /* EditOptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF1CAA016E8AD1700759F1E /* EditOptionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +49,12 @@
 		A5D0B48E16E89DAB002E79E2 /* ViewUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewUtils.h; sourceTree = "<group>"; };
 		A5D0B48F16E89DAB002E79E2 /* ViewUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewUtils.m; sourceTree = "<group>"; };
 		A5D0B49516E89E2D002E79E2 /* CoverPhotoTemplates.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CoverPhotoTemplates.plist; sourceTree = "<group>"; };
+		DEF1CA9716E8A4F300759F1E /* PhotoEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoEditorViewController.h; sourceTree = "<group>"; };
+		DEF1CA9816E8A4F300759F1E /* PhotoEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoEditorViewController.m; sourceTree = "<group>"; };
+		DEF1CA9916E8A4F300759F1E /* PhotoEditorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoEditorViewController.xib; sourceTree = "<group>"; };
+		DEF1CA9D16E8A5A100759F1E /* PhotoEditOptions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PhotoEditOptions.plist; sourceTree = "<group>"; };
+		DEF1CA9F16E8AD1700759F1E /* EditOptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditOptionView.h; path = View/EditOptionView.h; sourceTree = "<group>"; };
+		DEF1CAA016E8AD1700759F1E /* EditOptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditOptionView.m; path = View/EditOptionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,7 @@
 				A5D0B46F16E89D04002E79E2 /* AppDelegate.h */,
 				A5D0B47016E89D04002E79E2 /* AppDelegate.m */,
 				A5D0B46716E89D04002E79E2 /* Supporting Files */,
+				DEF1CAA216E8AD1D00759F1E /* Views */,
 			);
 			path = CoverPhotoEditor;
 			sourceTree = "<group>";
@@ -121,6 +132,9 @@
 				A5D0B48416E89D66002E79E2 /* HomeViewController.h */,
 				A5D0B48516E89D66002E79E2 /* HomeViewController.m */,
 				A5D0B48616E89D66002E79E2 /* HomeViewController.xib */,
+				DEF1CA9716E8A4F300759F1E /* PhotoEditorViewController.h */,
+				DEF1CA9816E8A4F300759F1E /* PhotoEditorViewController.m */,
+				DEF1CA9916E8A4F300759F1E /* PhotoEditorViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -172,8 +186,18 @@
 			isa = PBXGroup;
 			children = (
 				A5D0B49516E89E2D002E79E2 /* CoverPhotoTemplates.plist */,
+				DEF1CA9D16E8A5A100759F1E /* PhotoEditOptions.plist */,
 			);
 			path = Plist;
+			sourceTree = "<group>";
+		};
+		DEF1CAA216E8AD1D00759F1E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DEF1CA9F16E8AD1700759F1E /* EditOptionView.h */,
+				DEF1CAA016E8AD1700759F1E /* EditOptionView.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +257,8 @@
 				A5D0B47716E89D04002E79E2 /* Default-568h@2x.png in Resources */,
 				A5D0B48816E89D66002E79E2 /* HomeViewController.xib in Resources */,
 				A5D0B49616E89E2D002E79E2 /* CoverPhotoTemplates.plist in Resources */,
+				DEF1CA9B16E8A4F300759F1E /* PhotoEditorViewController.xib in Resources */,
+				DEF1CA9E16E8A5A100759F1E /* PhotoEditOptions.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +274,8 @@
 				A5D0B48716E89D66002E79E2 /* HomeViewController.m in Sources */,
 				A5D0B49016E89DAB002E79E2 /* ArrayUtils.m in Sources */,
 				A5D0B49116E89DAB002E79E2 /* ViewUtils.m in Sources */,
+				DEF1CA9A16E8A4F300759F1E /* PhotoEditorViewController.m in Sources */,
+				DEF1CAA116E8AD1700759F1E /* EditOptionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +394,7 @@
 				A5D0B48216E89D04002E79E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
