@@ -3,8 +3,16 @@
 <plist version="1.0">
 <array>
 	<dict>
-		<key>New item</key>
-		<string></string>
+		<key>name</key>
+		<string>Peeking Eyes</string>
+		<key>templateId</key>
+		<string>peekingEye</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Big Cat</string>
+		<key>templateId</key>
+		<string>bigcat</string>
 	</dict>
 </array>
 </plist>

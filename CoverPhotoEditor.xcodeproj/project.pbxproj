@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5D071A916E99D6900C02F69 /* CoverPhotoTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D071A816E99D6900C02F69 /* CoverPhotoTemplate.m */; };
+		A5D071AD16E9A1B000C02F69 /* HomeiCarousalCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D071AC16E9A1B000C02F69 /* HomeiCarousalCellView.m */; };
+		A5D071AF16E9A1E100C02F69 /* HomeiCarousalCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5D071AE16E9A1E100C02F69 /* HomeiCarousalCellView.xib */; };
 		A5D0B46116E89D03002E79E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D0B46016E89D03002E79E2 /* UIKit.framework */; };
 		A5D0B46316E89D03002E79E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D0B46216E89D03002E79E2 /* Foundation.framework */; };
 		A5D0B46516E89D03002E79E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D0B46416E89D03002E79E2 /* CoreGraphics.framework */; };
@@ -22,9 +25,16 @@
 		A5D0B49116E89DAB002E79E2 /* ViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D0B48F16E89DAB002E79E2 /* ViewUtils.m */; };
 		A5D0B49616E89E2D002E79E2 /* CoverPhotoTemplates.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5D0B49516E89E2D002E79E2 /* CoverPhotoTemplates.plist */; };
 		A5D0B49A16E8A237002E79E2 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D0B49916E8A237002E79E2 /* iCarousel.m */; };
+		A5D0B49C16E8ABAC002E79E2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D0B49B16E8ABAC002E79E2 /* QuartzCore.framework */; };
+		A5D0B49E16E8ACD3002E79E2 /* Templates in Resources */ = {isa = PBXBuildFile; fileRef = A5D0B49D16E8ACD3002E79E2 /* Templates */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5D071A716E99D6900C02F69 /* CoverPhotoTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverPhotoTemplate.h; sourceTree = "<group>"; };
+		A5D071A816E99D6900C02F69 /* CoverPhotoTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverPhotoTemplate.m; sourceTree = "<group>"; };
+		A5D071AB16E9A1B000C02F69 /* HomeiCarousalCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeiCarousalCellView.h; sourceTree = "<group>"; };
+		A5D071AC16E9A1B000C02F69 /* HomeiCarousalCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeiCarousalCellView.m; sourceTree = "<group>"; };
+		A5D071AE16E9A1E100C02F69 /* HomeiCarousalCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeiCarousalCellView.xib; sourceTree = "<group>"; };
 		A5D0B45D16E89D03002E79E2 /* CoverPhotoEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoverPhotoEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D0B46016E89D03002E79E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A5D0B46216E89D03002E79E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -48,6 +58,8 @@
 		A5D0B49516E89E2D002E79E2 /* CoverPhotoTemplates.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CoverPhotoTemplates.plist; sourceTree = "<group>"; };
 		A5D0B49816E8A237002E79E2 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
 		A5D0B49916E8A237002E79E2 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		A5D0B49B16E8ABAC002E79E2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A5D0B49D16E8ACD3002E79E2 /* Templates */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Templates; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5D0B49C16E8ABAC002E79E2 /* QuartzCore.framework in Frameworks */,
 				A5D0B46116E89D03002E79E2 /* UIKit.framework in Frameworks */,
 				A5D0B46316E89D03002E79E2 /* Foundation.framework in Frameworks */,
 				A5D0B46516E89D03002E79E2 /* CoreGraphics.framework in Frameworks */,
@@ -64,6 +77,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A5D071A616E99D4B00C02F69 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				A5D071A716E99D6900C02F69 /* CoverPhotoTemplate.h */,
+				A5D071A816E99D6900C02F69 /* CoverPhotoTemplate.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		A5D071AA16E9A16800C02F69 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A5D071AB16E9A1B000C02F69 /* HomeiCarousalCellView.h */,
+				A5D071AC16E9A1B000C02F69 /* HomeiCarousalCellView.m */,
+				A5D071AE16E9A1E100C02F69 /* HomeiCarousalCellView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		A5D0B45416E89D03002E79E2 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +116,7 @@
 		A5D0B45F16E89D03002E79E2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A5D0B49B16E8ABAC002E79E2 /* QuartzCore.framework */,
 				A5D0B46016E89D03002E79E2 /* UIKit.framework */,
 				A5D0B46216E89D03002E79E2 /* Foundation.framework */,
 				A5D0B46416E89D03002E79E2 /* CoreGraphics.framework */,
@@ -94,6 +127,8 @@
 		A5D0B46616E89D03002E79E2 /* CoverPhotoEditor */ = {
 			isa = PBXGroup;
 			children = (
+				A5D071AA16E9A16800C02F69 /* View */,
+				A5D071A616E99D4B00C02F69 /* model */,
 				A5D0B49216E89E04002E79E2 /* Resources */,
 				A5D0B48916E89DAB002E79E2 /* Library */,
 				A5D0B48316E89D66002E79E2 /* Controller */,
@@ -159,6 +194,7 @@
 		A5D0B49216E89E04002E79E2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A5D0B49D16E8ACD3002E79E2 /* Templates */,
 				A5D0B49316E89E04002E79E2 /* Interface */,
 				A5D0B49416E89E04002E79E2 /* Plist */,
 			);
@@ -246,6 +282,8 @@
 				A5D0B47716E89D04002E79E2 /* Default-568h@2x.png in Resources */,
 				A5D0B48816E89D66002E79E2 /* HomeViewController.xib in Resources */,
 				A5D0B49616E89E2D002E79E2 /* CoverPhotoTemplates.plist in Resources */,
+				A5D0B49E16E8ACD3002E79E2 /* Templates in Resources */,
+				A5D071AF16E9A1E100C02F69 /* HomeiCarousalCellView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +300,8 @@
 				A5D0B49016E89DAB002E79E2 /* ArrayUtils.m in Sources */,
 				A5D0B49116E89DAB002E79E2 /* ViewUtils.m in Sources */,
 				A5D0B49A16E8A237002E79E2 /* iCarousel.m in Sources */,
+				A5D071A916E99D6900C02F69 /* CoverPhotoTemplate.m in Sources */,
+				A5D071AD16E9A1B000C02F69 /* HomeiCarousalCellView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +420,7 @@
 				A5D0B48216E89D04002E79E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
