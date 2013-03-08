@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5D071A916E99D6900C02F69 /* CoverPhotoTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D071A816E99D6900C02F69 /* CoverPhotoTemplate.m */; };
+		A5D071AD16E9A1B000C02F69 /* HomeiCarousalCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D071AC16E9A1B000C02F69 /* HomeiCarousalCellView.m */; };
+		A5D071AF16E9A1E100C02F69 /* HomeiCarousalCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5D071AE16E9A1E100C02F69 /* HomeiCarousalCellView.xib */; };
+		A5D071B316E9A9B600C02F69 /* LayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D071B116E9A9B600C02F69 /* LayoutViewController.m */; };
+		A5D071B416E9A9B600C02F69 /* LayoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5D071B216E9A9B600C02F69 /* LayoutViewController.xib */; };
 		A5D0B46116E89D03002E79E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D0B46016E89D03002E79E2 /* UIKit.framework */; };
 		A5D0B46316E89D03002E79E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D0B46216E89D03002E79E2 /* Foundation.framework */; };
 		A5D0B46516E89D03002E79E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D0B46416E89D03002E79E2 /* CoreGraphics.framework */; };
@@ -21,14 +26,25 @@
 		A5D0B49016E89DAB002E79E2 /* ArrayUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D0B48C16E89DAB002E79E2 /* ArrayUtils.m */; };
 		A5D0B49116E89DAB002E79E2 /* ViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D0B48F16E89DAB002E79E2 /* ViewUtils.m */; };
 		A5D0B49616E89E2D002E79E2 /* CoverPhotoTemplates.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5D0B49516E89E2D002E79E2 /* CoverPhotoTemplates.plist */; };
-		DE7541D116E9A5A20094ED98 /* EditOptionScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7541D016E9A5A20094ED98 /* EditOptionScrollView.m */; };
-		DEF1CA9A16E8A4F300759F1E /* PhotoEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF1CA9816E8A4F300759F1E /* PhotoEditorViewController.m */; };
-		DEF1CA9B16E8A4F300759F1E /* PhotoEditorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF1CA9916E8A4F300759F1E /* PhotoEditorViewController.xib */; };
-		DEF1CA9E16E8A5A100759F1E /* PhotoEditOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEF1CA9D16E8A5A100759F1E /* PhotoEditOptions.plist */; };
-		DEF1CAA116E8AD1700759F1E /* EditOptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF1CAA016E8AD1700759F1E /* EditOptionView.m */; };
+		A5D0B49A16E8A237002E79E2 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D0B49916E8A237002E79E2 /* iCarousel.m */; };
+		A5D0B49C16E8ABAC002E79E2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D0B49B16E8ABAC002E79E2 /* QuartzCore.framework */; };
+		A5D0B49E16E8ACD3002E79E2 /* Templates in Resources */ = {isa = PBXBuildFile; fileRef = A5D0B49D16E8ACD3002E79E2 /* Templates */; };
+		DE7541E616E9D57F0094ED98 /* PhotoEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7541E416E9D57F0094ED98 /* PhotoEditorViewController.m */; };
+		DE7541E716E9D57F0094ED98 /* PhotoEditorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE7541E516E9D57F0094ED98 /* PhotoEditorViewController.xib */; };
+		DE7541ED16E9D5A30094ED98 /* EditOptionScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7541EA16E9D5A30094ED98 /* EditOptionScrollView.m */; };
+		DE7541EE16E9D5A30094ED98 /* EditOptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7541EC16E9D5A30094ED98 /* EditOptionView.m */; };
+		DE7541F016E9D5B50094ED98 /* PhotoEditOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE7541EF16E9D5B50094ED98 /* PhotoEditOptions.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5D071A716E99D6900C02F69 /* CoverPhotoTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverPhotoTemplate.h; sourceTree = "<group>"; };
+		A5D071A816E99D6900C02F69 /* CoverPhotoTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverPhotoTemplate.m; sourceTree = "<group>"; };
+		A5D071AB16E9A1B000C02F69 /* HomeiCarousalCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeiCarousalCellView.h; sourceTree = "<group>"; };
+		A5D071AC16E9A1B000C02F69 /* HomeiCarousalCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeiCarousalCellView.m; sourceTree = "<group>"; };
+		A5D071AE16E9A1E100C02F69 /* HomeiCarousalCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeiCarousalCellView.xib; sourceTree = "<group>"; };
+		A5D071B016E9A9B600C02F69 /* LayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutViewController.h; sourceTree = "<group>"; };
+		A5D071B116E9A9B600C02F69 /* LayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutViewController.m; sourceTree = "<group>"; };
+		A5D071B216E9A9B600C02F69 /* LayoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LayoutViewController.xib; sourceTree = "<group>"; };
 		A5D0B45D16E89D03002E79E2 /* CoverPhotoEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoverPhotoEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D0B46016E89D03002E79E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A5D0B46216E89D03002E79E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,14 +66,18 @@
 		A5D0B48E16E89DAB002E79E2 /* ViewUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewUtils.h; sourceTree = "<group>"; };
 		A5D0B48F16E89DAB002E79E2 /* ViewUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewUtils.m; sourceTree = "<group>"; };
 		A5D0B49516E89E2D002E79E2 /* CoverPhotoTemplates.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CoverPhotoTemplates.plist; sourceTree = "<group>"; };
-		DE7541CF16E9A5A20094ED98 /* EditOptionScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditOptionScrollView.h; path = View/EditOptionScrollView.h; sourceTree = "<group>"; };
-		DE7541D016E9A5A20094ED98 /* EditOptionScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditOptionScrollView.m; path = View/EditOptionScrollView.m; sourceTree = "<group>"; };
-		DEF1CA9716E8A4F300759F1E /* PhotoEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoEditorViewController.h; sourceTree = "<group>"; };
-		DEF1CA9816E8A4F300759F1E /* PhotoEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoEditorViewController.m; sourceTree = "<group>"; };
-		DEF1CA9916E8A4F300759F1E /* PhotoEditorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoEditorViewController.xib; sourceTree = "<group>"; };
-		DEF1CA9D16E8A5A100759F1E /* PhotoEditOptions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PhotoEditOptions.plist; sourceTree = "<group>"; };
-		DEF1CA9F16E8AD1700759F1E /* EditOptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditOptionView.h; path = View/EditOptionView.h; sourceTree = "<group>"; };
-		DEF1CAA016E8AD1700759F1E /* EditOptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditOptionView.m; path = View/EditOptionView.m; sourceTree = "<group>"; };
+		A5D0B49816E8A237002E79E2 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		A5D0B49916E8A237002E79E2 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		A5D0B49B16E8ABAC002E79E2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A5D0B49D16E8ACD3002E79E2 /* Templates */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Templates; sourceTree = "<group>"; };
+		DE7541E316E9D57F0094ED98 /* PhotoEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoEditorViewController.h; sourceTree = "<group>"; };
+		DE7541E416E9D57F0094ED98 /* PhotoEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoEditorViewController.m; sourceTree = "<group>"; };
+		DE7541E516E9D57F0094ED98 /* PhotoEditorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoEditorViewController.xib; sourceTree = "<group>"; };
+		DE7541E916E9D5A30094ED98 /* EditOptionScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditOptionScrollView.h; sourceTree = "<group>"; };
+		DE7541EA16E9D5A30094ED98 /* EditOptionScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditOptionScrollView.m; sourceTree = "<group>"; };
+		DE7541EB16E9D5A30094ED98 /* EditOptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditOptionView.h; sourceTree = "<group>"; };
+		DE7541EC16E9D5A30094ED98 /* EditOptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditOptionView.m; sourceTree = "<group>"; };
+		DE7541EF16E9D5B50094ED98 /* PhotoEditOptions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PhotoEditOptions.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5D0B49C16E8ABAC002E79E2 /* QuartzCore.framework in Frameworks */,
 				A5D0B46116E89D03002E79E2 /* UIKit.framework in Frameworks */,
 				A5D0B46316E89D03002E79E2 /* Foundation.framework in Frameworks */,
 				A5D0B46516E89D03002E79E2 /* CoreGraphics.framework in Frameworks */,
@@ -74,6 +95,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A5D071A616E99D4B00C02F69 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				A5D071A716E99D6900C02F69 /* CoverPhotoTemplate.h */,
+				A5D071A816E99D6900C02F69 /* CoverPhotoTemplate.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		A5D071AA16E9A16800C02F69 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE7541E916E9D5A30094ED98 /* EditOptionScrollView.h */,
+				DE7541EA16E9D5A30094ED98 /* EditOptionScrollView.m */,
+				DE7541EB16E9D5A30094ED98 /* EditOptionView.h */,
+				DE7541EC16E9D5A30094ED98 /* EditOptionView.m */,
+				A5D071AB16E9A1B000C02F69 /* HomeiCarousalCellView.h */,
+				A5D071AC16E9A1B000C02F69 /* HomeiCarousalCellView.m */,
+				A5D071AE16E9A1E100C02F69 /* HomeiCarousalCellView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		A5D0B45416E89D03002E79E2 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +138,7 @@
 		A5D0B45F16E89D03002E79E2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A5D0B49B16E8ABAC002E79E2 /* QuartzCore.framework */,
 				A5D0B46016E89D03002E79E2 /* UIKit.framework */,
 				A5D0B46216E89D03002E79E2 /* Foundation.framework */,
 				A5D0B46416E89D03002E79E2 /* CoreGraphics.framework */,
@@ -104,13 +149,14 @@
 		A5D0B46616E89D03002E79E2 /* CoverPhotoEditor */ = {
 			isa = PBXGroup;
 			children = (
+				A5D071AA16E9A16800C02F69 /* View */,
+				A5D071A616E99D4B00C02F69 /* model */,
 				A5D0B49216E89E04002E79E2 /* Resources */,
 				A5D0B48916E89DAB002E79E2 /* Library */,
 				A5D0B48316E89D66002E79E2 /* Controller */,
 				A5D0B46F16E89D04002E79E2 /* AppDelegate.h */,
 				A5D0B47016E89D04002E79E2 /* AppDelegate.m */,
 				A5D0B46716E89D04002E79E2 /* Supporting Files */,
-				DEF1CAA216E8AD1D00759F1E /* Views */,
 			);
 			path = CoverPhotoEditor;
 			sourceTree = "<group>";
@@ -132,12 +178,15 @@
 		A5D0B48316E89D66002E79E2 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DE7541E316E9D57F0094ED98 /* PhotoEditorViewController.h */,
+				DE7541E416E9D57F0094ED98 /* PhotoEditorViewController.m */,
+				DE7541E516E9D57F0094ED98 /* PhotoEditorViewController.xib */,
+				A5D071B016E9A9B600C02F69 /* LayoutViewController.h */,
+				A5D071B116E9A9B600C02F69 /* LayoutViewController.m */,
+				A5D071B216E9A9B600C02F69 /* LayoutViewController.xib */,
 				A5D0B48416E89D66002E79E2 /* HomeViewController.h */,
 				A5D0B48516E89D66002E79E2 /* HomeViewController.m */,
 				A5D0B48616E89D66002E79E2 /* HomeViewController.xib */,
-				DEF1CA9716E8A4F300759F1E /* PhotoEditorViewController.h */,
-				DEF1CA9816E8A4F300759F1E /* PhotoEditorViewController.m */,
-				DEF1CA9916E8A4F300759F1E /* PhotoEditorViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -145,6 +194,7 @@
 		A5D0B48916E89DAB002E79E2 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				A5D0B49716E8A237002E79E2 /* iCarousel */,
 				A5D0B48A16E89DAB002E79E2 /* ArrayUtils */,
 				A5D0B48D16E89DAB002E79E2 /* ViewUtils */,
 			);
@@ -172,6 +222,7 @@
 		A5D0B49216E89E04002E79E2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A5D0B49D16E8ACD3002E79E2 /* Templates */,
 				A5D0B49316E89E04002E79E2 /* Interface */,
 				A5D0B49416E89E04002E79E2 /* Plist */,
 			);
@@ -188,21 +239,19 @@
 		A5D0B49416E89E04002E79E2 /* Plist */ = {
 			isa = PBXGroup;
 			children = (
+				DE7541EF16E9D5B50094ED98 /* PhotoEditOptions.plist */,
 				A5D0B49516E89E2D002E79E2 /* CoverPhotoTemplates.plist */,
-				DEF1CA9D16E8A5A100759F1E /* PhotoEditOptions.plist */,
 			);
 			path = Plist;
 			sourceTree = "<group>";
 		};
-		DEF1CAA216E8AD1D00759F1E /* Views */ = {
+		A5D0B49716E8A237002E79E2 /* iCarousel */ = {
 			isa = PBXGroup;
 			children = (
-				DEF1CA9F16E8AD1700759F1E /* EditOptionView.h */,
-				DEF1CAA016E8AD1700759F1E /* EditOptionView.m */,
-				DE7541CF16E9A5A20094ED98 /* EditOptionScrollView.h */,
-				DE7541D016E9A5A20094ED98 /* EditOptionScrollView.m */,
+				A5D0B49816E8A237002E79E2 /* iCarousel.h */,
+				A5D0B49916E8A237002E79E2 /* iCarousel.m */,
 			);
-			name = Views;
+			path = iCarousel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +311,11 @@
 				A5D0B47716E89D04002E79E2 /* Default-568h@2x.png in Resources */,
 				A5D0B48816E89D66002E79E2 /* HomeViewController.xib in Resources */,
 				A5D0B49616E89E2D002E79E2 /* CoverPhotoTemplates.plist in Resources */,
-				DEF1CA9B16E8A4F300759F1E /* PhotoEditorViewController.xib in Resources */,
-				DEF1CA9E16E8A5A100759F1E /* PhotoEditOptions.plist in Resources */,
+				A5D0B49E16E8ACD3002E79E2 /* Templates in Resources */,
+				A5D071AF16E9A1E100C02F69 /* HomeiCarousalCellView.xib in Resources */,
+				A5D071B416E9A9B600C02F69 /* LayoutViewController.xib in Resources */,
+				DE7541E716E9D57F0094ED98 /* PhotoEditorViewController.xib in Resources */,
+				DE7541F016E9D5B50094ED98 /* PhotoEditOptions.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,9 +331,13 @@
 				A5D0B48716E89D66002E79E2 /* HomeViewController.m in Sources */,
 				A5D0B49016E89DAB002E79E2 /* ArrayUtils.m in Sources */,
 				A5D0B49116E89DAB002E79E2 /* ViewUtils.m in Sources */,
-				DEF1CA9A16E8A4F300759F1E /* PhotoEditorViewController.m in Sources */,
-				DEF1CAA116E8AD1700759F1E /* EditOptionView.m in Sources */,
-				DE7541D116E9A5A20094ED98 /* EditOptionScrollView.m in Sources */,
+				A5D0B49A16E8A237002E79E2 /* iCarousel.m in Sources */,
+				A5D071A916E99D6900C02F69 /* CoverPhotoTemplate.m in Sources */,
+				A5D071AD16E9A1B000C02F69 /* HomeiCarousalCellView.m in Sources */,
+				A5D071B316E9A9B600C02F69 /* LayoutViewController.m in Sources */,
+				DE7541E616E9D57F0094ED98 /* PhotoEditorViewController.m in Sources */,
+				DE7541ED16E9D5A30094ED98 /* EditOptionScrollView.m in Sources */,
+				DE7541EE16E9D5A30094ED98 /* EditOptionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

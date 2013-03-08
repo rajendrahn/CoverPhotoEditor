@@ -29,7 +29,7 @@ const int kLabelTag = 100;
     return self;
 }
 
-- (id)initWithEditOptionName:(NSString *)optionName imageName:(NSString *)imageName identifier:(NSNumber *) identifier delegate:(id <EditOptionViewDelegate>) delegate
+- (id)initWithEditOptionName:(NSString *)optionName imageName:(NSString *)imageName delegate:(id <EditOptionViewDelegate>) delegate
 {
     self = [super init];
     

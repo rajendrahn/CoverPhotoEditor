@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict/>
+<array>
+	<dict>
+		<key>name</key>
+		<string>Peeking Eyes</string>
+		<key>templateId</key>
+		<string>peekingEye</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Big Cat</string>
+		<key>templateId</key>
+		<string>bigcat</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Gamorous Girl</string>
+		<key>templateId</key>
+		<string>glamorousGirl</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Lying Man</string>
+		<key>templateId</key>
+		<string>lyingMan</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Stay Foolish</string>
+		<key>templateId</key>
+		<string>stayFoolish</string>
+	</dict>
+</array>
 </plist>
