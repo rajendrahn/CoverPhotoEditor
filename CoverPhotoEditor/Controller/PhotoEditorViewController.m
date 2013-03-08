@@ -41,7 +41,13 @@ const NSString * kImageName = @"ImageName";
     self.editorOptions = [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"PhotoEditOptions" ofType:@"plist"]];
     self.editOptionScrollView.editOptionScrollViewDataSource = self;
     self.editOptionScrollView.editOptionScrollViewDelegate = self;
+    [self.editOptionScrollView reloadData];
    
+}
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation
+{
+    return UIInterfaceOrientationIsLandscape(toInterfaceOrientation);
 }
 
 - (void)didReceiveMemoryWarning
@@ -81,7 +87,7 @@ const NSString * kImageName = @"ImageName";
 
 #pragma mark - EditOptionView Delegate
 
-- (void) editOptionView:(EditOptionView *)didSelectOptionWithName:(NSString *)name
+- (void)editOptionView:(EditOptionView *)editOptionView didSelectOptionWithName:(NSString *)name
 {
     
 }

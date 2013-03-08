@@ -8,5 +8,35 @@
 		<key>ImageName</key>
 		<string>crop.png</string>
 	</dict>
+	<dict>
+		<key>OptionName</key>
+		<string>Draw</string>
+		<key>ImageName</key>
+		<string>draw.png</string>
+	</dict>
+	<dict>
+		<key>OptionName</key>
+		<string>Effect</string>
+		<key>ImageName</key>
+		<string>effect.png</string>
+	</dict>
+	<dict>
+		<key>OptionName</key>
+		<string>Flip</string>
+		<key>ImageName</key>
+		<string>flip.png</string>
+	</dict>
+	<dict>
+		<key>OptionName</key>
+		<string>Text</string>
+		<key>ImageName</key>
+		<string>text.png</string>
+	</dict>
+	<dict>
+		<key>OptionName</key>
+		<string>Tune</string>
+		<key>ImageName</key>
+		<string>tune.png</string>
+	</dict>
 </array>
 </plist>

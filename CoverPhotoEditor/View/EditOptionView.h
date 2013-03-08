@@ -12,7 +12,7 @@
 
 @protocol EditOptionViewDelegate
 
-- (void)editOptionView:(EditOptionView *) didSelectOptionWithName:(NSString *) name;
+- (void)editOptionView:(EditOptionView *)editOptionView didSelectOptionWithName:(NSString *) name;
 
 @end
 

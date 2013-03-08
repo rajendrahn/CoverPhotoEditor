@@ -51,6 +51,7 @@
         subView.frame = frame;
         scrollViewContentWidth += itemWidth + self.itemSpacing;
         index ++;
+        [self addSubview:subView];
     }
     
     self.contentSize = CGSizeMake(scrollViewContentWidth, CGRectGetHeight(self.frame));
@@ -72,7 +73,7 @@
     
     self.itemArray = [NSMutableArray arrayWithCapacity:self.numOfItems];
     
-    if (self.editOptionScrollViewDataSource && [self.editOptionScrollViewDataSource respondsToSelector:@selector(editOptionScrolView:itemAtIndex::)])
+    if (self.editOptionScrollViewDataSource && [self.editOptionScrollViewDataSource respondsToSelector:@selector(editOptionScrolView:itemAtIndex:)])
     {
         for (int index = 0; index < self.numOfItems; index ++)
         {

@@ -8,7 +8,7 @@
 
 #import "EditOptionView.h"
 
-const float kImagesize = 60.0f;
+const float kImagesize = 30.0f;
 const float kFontSize = 12.0f;
 const int kLabelTag = 100;
 
@@ -36,17 +36,19 @@ const int kLabelTag = 100;
     if (self)
     {
         float optionNameWidth = [optionName sizeWithFont:[UIFont systemFontOfSize:kFontSize]].width;
-        self.frame = CGRectMake(0.0f, 0.0f, MAX(optionNameWidth, kImagesize) + 40.0f, 100.0f);
+        self.frame = CGRectMake(0.0f, 0.0f, MAX(optionNameWidth, kImagesize) + 20.0f, 70.0f);
         
-        UIButton *optionButton = [[UIButton alloc] initWithFrame:CGRectMake((CGRectGetWidth(self.frame) - kImagesize) * 0.5f, 20.0f, kImagesize, kImagesize)];
+        UIButton *optionButton = [[UIButton alloc] initWithFrame:CGRectMake((CGRectGetWidth(self.frame) - kImagesize) * 0.5f, 10.0f, kImagesize, kImagesize)];
         [optionButton setBackgroundImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
         [optionButton addTarget:self action:@selector(optionButtonTapped:) forControlEvents:UIControlEventTouchDown];
         [self addSubview:optionButton];
         
-        UILabel *optionNameLabel = [[UILabel alloc] initWithFrame:CGRectMake((CGRectGetWidth(self.frame) - optionNameWidth) * 0.5f, 80.0f, optionNameWidth, 20.0f)];
+        UILabel *optionNameLabel = [[UILabel alloc] initWithFrame:CGRectMake((CGRectGetWidth(self.frame) - optionNameWidth) * 0.5f, 45.0f, optionNameWidth, 20.0f)];
         optionNameLabel.font = [UIFont systemFontOfSize:kFontSize];
         optionNameLabel.tag = kLabelTag;
         optionNameLabel.text = optionName;
+        optionNameLabel.textColor = [UIColor whiteColor];
+        optionNameLabel.backgroundColor = [UIColor clearColor];
         [self addSubview:optionNameLabel];
         
         _delegate = delegate;
