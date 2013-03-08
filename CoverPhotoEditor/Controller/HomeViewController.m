@@ -22,10 +22,7 @@
 
 - (NSArray *)coverPhotoTemplates
 {
-    if (!_coverPhotoTemplates)
-    {
-        _coverPhotoTemplates = [CoverPhotoTemplate coverPhotoTemplates];
-    }
+    if (!_coverPhotoTemplates) _coverPhotoTemplates = [CoverPhotoTemplate coverPhotoTemplates];
     return _coverPhotoTemplates;
 }
 
@@ -35,6 +32,12 @@
 {
     [super viewDidLoad];
     self.carousel.type = iCarouselTypeRotary;
+}
+
+- (void)viewDidUnload
+{
+    [self setCarousel:nil];
+    [super viewDidUnload];
 }
 
 #pragma mark - iCarouselDataSource, iCarouselDelegate methods -
@@ -51,8 +54,10 @@
     return view;
 }
 
-- (void)viewDidUnload {
-    [self setCarousel:nil];
-    [super viewDidUnload];
+- (void)carousel:(iCarousel *)carousel didSelectItemAtIndex:(NSInteger)index
+{
+    //TODO: item selected. Show the appropriate view controller.
+    NSLog( @"%@ item selected",((CoverPhotoTemplate *)self.coverPhotoTemplates[index]).name);
 }
+
 @end
