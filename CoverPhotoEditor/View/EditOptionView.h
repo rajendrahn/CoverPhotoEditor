@@ -12,13 +12,13 @@
 
 @protocol EditOptionViewDelegate
 
-- (void)editOptionView:(EditOptionView *) didSelectOptionWithIdentifier:(NSNumber *) identifier;
+- (void)editOptionView:(EditOptionView *) didSelectOptionWithName:(NSString *) name;
 
 @end
 
 @interface EditOptionView : UIView
 
 
-- (id)initWithEditOptionName:(NSString *)optionName imageName:(NSString *)imageName identifier:(NSNumber *)identifier delegate:(id <EditOptionViewDelegate>) delegate;
+- (id)initWithEditOptionName:(NSString *)optionName imageName:(NSString *)imageName delegate:(id <EditOptionViewDelegate>) delegate;
 
 @end

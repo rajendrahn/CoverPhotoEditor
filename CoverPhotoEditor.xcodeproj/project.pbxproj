@@ -21,6 +21,7 @@
 		A5D0B49016E89DAB002E79E2 /* ArrayUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D0B48C16E89DAB002E79E2 /* ArrayUtils.m */; };
 		A5D0B49116E89DAB002E79E2 /* ViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D0B48F16E89DAB002E79E2 /* ViewUtils.m */; };
 		A5D0B49616E89E2D002E79E2 /* CoverPhotoTemplates.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5D0B49516E89E2D002E79E2 /* CoverPhotoTemplates.plist */; };
+		DE7541D116E9A5A20094ED98 /* EditOptionScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7541D016E9A5A20094ED98 /* EditOptionScrollView.m */; };
 		DEF1CA9A16E8A4F300759F1E /* PhotoEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF1CA9816E8A4F300759F1E /* PhotoEditorViewController.m */; };
 		DEF1CA9B16E8A4F300759F1E /* PhotoEditorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF1CA9916E8A4F300759F1E /* PhotoEditorViewController.xib */; };
 		DEF1CA9E16E8A5A100759F1E /* PhotoEditOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEF1CA9D16E8A5A100759F1E /* PhotoEditOptions.plist */; };
@@ -49,6 +50,8 @@
 		A5D0B48E16E89DAB002E79E2 /* ViewUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewUtils.h; sourceTree = "<group>"; };
 		A5D0B48F16E89DAB002E79E2 /* ViewUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewUtils.m; sourceTree = "<group>"; };
 		A5D0B49516E89E2D002E79E2 /* CoverPhotoTemplates.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CoverPhotoTemplates.plist; sourceTree = "<group>"; };
+		DE7541CF16E9A5A20094ED98 /* EditOptionScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditOptionScrollView.h; path = View/EditOptionScrollView.h; sourceTree = "<group>"; };
+		DE7541D016E9A5A20094ED98 /* EditOptionScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditOptionScrollView.m; path = View/EditOptionScrollView.m; sourceTree = "<group>"; };
 		DEF1CA9716E8A4F300759F1E /* PhotoEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoEditorViewController.h; sourceTree = "<group>"; };
 		DEF1CA9816E8A4F300759F1E /* PhotoEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoEditorViewController.m; sourceTree = "<group>"; };
 		DEF1CA9916E8A4F300759F1E /* PhotoEditorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoEditorViewController.xib; sourceTree = "<group>"; };
@@ -196,6 +199,8 @@
 			children = (
 				DEF1CA9F16E8AD1700759F1E /* EditOptionView.h */,
 				DEF1CAA016E8AD1700759F1E /* EditOptionView.m */,
+				DE7541CF16E9A5A20094ED98 /* EditOptionScrollView.h */,
+				DE7541D016E9A5A20094ED98 /* EditOptionScrollView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 				A5D0B49116E89DAB002E79E2 /* ViewUtils.m in Sources */,
 				DEF1CA9A16E8A4F300759F1E /* PhotoEditorViewController.m in Sources */,
 				DEF1CAA116E8AD1700759F1E /* EditOptionView.m in Sources */,
+				DE7541D116E9A5A20094ED98 /* EditOptionScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

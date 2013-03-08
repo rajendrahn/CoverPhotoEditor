@@ -10,10 +10,10 @@
 
 const float kImagesize = 60.0f;
 const float kFontSize = 12.0f;
+const int kLabelTag = 100;
 
 @interface EditOptionView ()
 
-@property (nonatomic, strong) NSNumber *identifier;
 @property (nonatomic, weak) id delegate;
 
 @end
@@ -45,10 +45,10 @@ const float kFontSize = 12.0f;
         
         UILabel *optionNameLabel = [[UILabel alloc] initWithFrame:CGRectMake((CGRectGetWidth(self.frame) - optionNameWidth) * 0.5f, 80.0f, optionNameWidth, 20.0f)];
         optionNameLabel.font = [UIFont systemFontOfSize:kFontSize];
+        optionNameLabel.tag = kLabelTag;
         optionNameLabel.text = optionName;
         [self addSubview:optionNameLabel];
         
-        _identifier = identifier;
         _delegate = delegate;
         
     }
@@ -58,9 +58,10 @@ const float kFontSize = 12.0f;
 
 - (void)optionButtonTapped:(id)sender
 {
-    if (self.delegate && [self.delegate respondsToSelector:@selector(editOptionView:didSelectOptionWithIdentifier:)])
+    if (self.delegate && [self.delegate respondsToSelector:@selector(editOptionView:didSelectOptionWithName:)])
     {
-        [self.delegate performSelector:@selector(editOptionView:didSelectOptionWithIdentifier:) withObject:self withObject:self.identifier];
+        UILabel *label = (UILabel *)[self viewWithTag:kLabelTag];
+        [self.delegate performSelector:@selector(editOptionView:didSelectOptionWithName:) withObject:self withObject:label.text];
     }
 }
 
