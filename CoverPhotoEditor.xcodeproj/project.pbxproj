@@ -10,6 +10,8 @@
 		A5D071A916E99D6900C02F69 /* CoverPhotoTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D071A816E99D6900C02F69 /* CoverPhotoTemplate.m */; };
 		A5D071AD16E9A1B000C02F69 /* HomeiCarousalCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D071AC16E9A1B000C02F69 /* HomeiCarousalCellView.m */; };
 		A5D071AF16E9A1E100C02F69 /* HomeiCarousalCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5D071AE16E9A1E100C02F69 /* HomeiCarousalCellView.xib */; };
+		A5D071B316E9A9B600C02F69 /* LayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D071B116E9A9B600C02F69 /* LayoutViewController.m */; };
+		A5D071B416E9A9B600C02F69 /* LayoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5D071B216E9A9B600C02F69 /* LayoutViewController.xib */; };
 		A5D0B46116E89D03002E79E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D0B46016E89D03002E79E2 /* UIKit.framework */; };
 		A5D0B46316E89D03002E79E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D0B46216E89D03002E79E2 /* Foundation.framework */; };
 		A5D0B46516E89D03002E79E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D0B46416E89D03002E79E2 /* CoreGraphics.framework */; };
@@ -35,6 +37,9 @@
 		A5D071AB16E9A1B000C02F69 /* HomeiCarousalCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeiCarousalCellView.h; sourceTree = "<group>"; };
 		A5D071AC16E9A1B000C02F69 /* HomeiCarousalCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeiCarousalCellView.m; sourceTree = "<group>"; };
 		A5D071AE16E9A1E100C02F69 /* HomeiCarousalCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeiCarousalCellView.xib; sourceTree = "<group>"; };
+		A5D071B016E9A9B600C02F69 /* LayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutViewController.h; sourceTree = "<group>"; };
+		A5D071B116E9A9B600C02F69 /* LayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutViewController.m; sourceTree = "<group>"; };
+		A5D071B216E9A9B600C02F69 /* LayoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LayoutViewController.xib; sourceTree = "<group>"; };
 		A5D0B45D16E89D03002E79E2 /* CoverPhotoEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoverPhotoEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D0B46016E89D03002E79E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A5D0B46216E89D03002E79E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -156,12 +161,12 @@
 		A5D0B48316E89D66002E79E2 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A5D071B016E9A9B600C02F69 /* LayoutViewController.h */,
+				A5D071B116E9A9B600C02F69 /* LayoutViewController.m */,
+				A5D071B216E9A9B600C02F69 /* LayoutViewController.xib */,
 				A5D0B48416E89D66002E79E2 /* HomeViewController.h */,
 				A5D0B48516E89D66002E79E2 /* HomeViewController.m */,
 				A5D0B48616E89D66002E79E2 /* HomeViewController.xib */,
-				B1F9268116E8D19800025D6B /* LayoutViewController.h */,
-				B1F9268216E8D19800025D6B /* LayoutViewController.m */,
-				B1F9268316E8D19800025D6B /* LayoutViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -287,6 +292,7 @@
 				A5D0B49616E89E2D002E79E2 /* CoverPhotoTemplates.plist in Resources */,
 				A5D0B49E16E8ACD3002E79E2 /* Templates in Resources */,
 				A5D071AF16E9A1E100C02F69 /* HomeiCarousalCellView.xib in Resources */,
+				A5D071B416E9A9B600C02F69 /* LayoutViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +311,7 @@
 				A5D0B49A16E8A237002E79E2 /* iCarousel.m in Sources */,
 				A5D071A916E99D6900C02F69 /* CoverPhotoTemplate.m in Sources */,
 				A5D071AD16E9A1B000C02F69 /* HomeiCarousalCellView.m in Sources */,
+				A5D071B316E9A9B600C02F69 /* LayoutViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
