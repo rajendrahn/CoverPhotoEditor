@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class CoverPhotoTemplate;
 @interface LayoutViewController : UIViewController
+
+-(id)initWithLayoutPhotoTemplate:(CoverPhotoTemplate *)coverPhotoTemplate;
 
 @end

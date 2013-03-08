@@ -10,6 +10,8 @@
 #import "iCarousel.h"
 #import "CoverPhotoTemplate.h"
 #import "HomeiCarousalCellView.h"
+#import "LayoutViewController.h"
+
 
 @interface HomeViewController () <iCarouselDataSource, iCarouselDelegate>
 
@@ -56,8 +58,11 @@
 
 - (void)carousel:(iCarousel *)carousel didSelectItemAtIndex:(NSInteger)index
 {
-    //TODO: item selected. Show the appropriate view controller.
-    NSLog( @"%@ item selected",((CoverPhotoTemplate *)self.coverPhotoTemplates[index]).name);
+    CoverPhotoTemplate *template = ((CoverPhotoTemplate *)self.coverPhotoTemplates[index]);
+    NSLog( @"%@ item selected",template.name);
+    LayoutViewController *viewController = [[LayoutViewController alloc] initWithLayoutPhotoTemplate:template];
+    [self presentModalViewController:viewController animated:YES];
+    
 }
 
 @end

@@ -7,18 +7,30 @@
 //
 
 #import "LayoutViewController.h"
+#import "CoverPhotoTemplate.h"
+#import "CustomLayoutBackgroundView.h"
 
 @interface LayoutViewController ()
 
+
+@property (nonatomic, strong) CustomLayoutBackgroundView *customTemplateView;
+@property (nonatomic, strong) CoverPhotoTemplate *coverPhotoTemplate;
 @end
 
 @implementation LayoutViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+-(id)initWithLayoutPhotoTemplate:(CoverPhotoTemplate *)coverPhotoTemplate
 {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
+    if (self == [super init])
+    {
+        _coverPhotoTemplate = coverPhotoTemplate;
+        // if (!CustomLayout)
+        _customTemplateView = (CustomLayoutBackgroundView *)[[[NSBundle mainBundle] loadNibNamed:@"CustomLayoutBackgroundView" owner:self options:nil] lastObject];
+        [self.view addSubview:_customTemplateView];
+        _customTemplateView.frame = CGRectMake(0, 90, 768, 950);
+        //else
+        //TODO
+        
     }
     return self;
 }
@@ -26,6 +38,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.customTemplateView.templateImageView.image = self.coverPhotoTemplate.exampleImage;
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -33,6 +46,9 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)backButtonClicked:(id)sender {
+    [self dismissModalViewControllerAnimated:YES];
 }
 
 @end

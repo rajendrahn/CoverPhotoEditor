@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25356B3B16E9C16E0064CADF /* 401101_232450640177454_1779529670_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25356B3A16E9C16E0064CADF /* 401101_232450640177454_1779529670_n.jpg */; };
+		25356B3E16E9C1EB0064CADF /* CustomImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25356B3D16E9C1EB0064CADF /* CustomImageView.m */; };
+		25356B4116E9C61A0064CADF /* CustomLayoutBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25356B4016E9C61A0064CADF /* CustomLayoutBackgroundView.m */; };
+		25356B4316E9C6270064CADF /* CustomLayoutBackgroundView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25356B4216E9C6270064CADF /* CustomLayoutBackgroundView.xib */; };
 		A5D071A916E99D6900C02F69 /* CoverPhotoTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D071A816E99D6900C02F69 /* CoverPhotoTemplate.m */; };
 		A5D071AD16E9A1B000C02F69 /* HomeiCarousalCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D071AC16E9A1B000C02F69 /* HomeiCarousalCellView.m */; };
 		A5D071AF16E9A1E100C02F69 /* HomeiCarousalCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5D071AE16E9A1E100C02F69 /* HomeiCarousalCellView.xib */; };
@@ -32,6 +36,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25356B3A16E9C16E0064CADF /* 401101_232450640177454_1779529670_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 401101_232450640177454_1779529670_n.jpg; sourceTree = "<group>"; };
+		25356B3C16E9C1EB0064CADF /* CustomImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomImageView.h; sourceTree = "<group>"; };
+		25356B3D16E9C1EB0064CADF /* CustomImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomImageView.m; sourceTree = "<group>"; };
+		25356B3F16E9C61A0064CADF /* CustomLayoutBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLayoutBackgroundView.h; sourceTree = "<group>"; };
+		25356B4016E9C61A0064CADF /* CustomLayoutBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLayoutBackgroundView.m; sourceTree = "<group>"; };
+		25356B4216E9C6270064CADF /* CustomLayoutBackgroundView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomLayoutBackgroundView.xib; sourceTree = "<group>"; };
 		A5D071A716E99D6900C02F69 /* CoverPhotoTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverPhotoTemplate.h; sourceTree = "<group>"; };
 		A5D071A816E99D6900C02F69 /* CoverPhotoTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverPhotoTemplate.m; sourceTree = "<group>"; };
 		A5D071AB16E9A1B000C02F69 /* HomeiCarousalCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeiCarousalCellView.h; sourceTree = "<group>"; };
@@ -94,9 +104,14 @@
 		A5D071AA16E9A16800C02F69 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				25356B3C16E9C1EB0064CADF /* CustomImageView.h */,
+				25356B3D16E9C1EB0064CADF /* CustomImageView.m */,
 				A5D071AB16E9A1B000C02F69 /* HomeiCarousalCellView.h */,
 				A5D071AC16E9A1B000C02F69 /* HomeiCarousalCellView.m */,
 				A5D071AE16E9A1E100C02F69 /* HomeiCarousalCellView.xib */,
+				25356B3F16E9C61A0064CADF /* CustomLayoutBackgroundView.h */,
+				25356B4016E9C61A0064CADF /* CustomLayoutBackgroundView.m */,
+				25356B4216E9C6270064CADF /* CustomLayoutBackgroundView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -219,6 +234,7 @@
 		A5D0B49416E89E04002E79E2 /* Plist */ = {
 			isa = PBXGroup;
 			children = (
+				25356B3A16E9C16E0064CADF /* 401101_232450640177454_1779529670_n.jpg */,
 				A5D0B49516E89E2D002E79E2 /* CoverPhotoTemplates.plist */,
 			);
 			path = Plist;
@@ -293,6 +309,8 @@
 				A5D0B49E16E8ACD3002E79E2 /* Templates in Resources */,
 				A5D071AF16E9A1E100C02F69 /* HomeiCarousalCellView.xib in Resources */,
 				A5D071B416E9A9B600C02F69 /* LayoutViewController.xib in Resources */,
+				25356B3B16E9C16E0064CADF /* 401101_232450640177454_1779529670_n.jpg in Resources */,
+				25356B4316E9C6270064CADF /* CustomLayoutBackgroundView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +330,8 @@
 				A5D071A916E99D6900C02F69 /* CoverPhotoTemplate.m in Sources */,
 				A5D071AD16E9A1B000C02F69 /* HomeiCarousalCellView.m in Sources */,
 				A5D071B316E9A9B600C02F69 /* LayoutViewController.m in Sources */,
+				25356B3E16E9C1EB0064CADF /* CustomImageView.m in Sources */,
+				25356B4116E9C61A0064CADF /* CustomLayoutBackgroundView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,11 +410,15 @@
 		A5D0B48116E89D04002E79E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ramachandra Acharya (66ANZ2UC56)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ramachandra Acharya (66ANZ2UC56)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoverPhotoEditor/CoverPhotoEditor-Prefix.pch";
 				INFOPLIST_FILE = "CoverPhotoEditor/CoverPhotoEditor-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "DB713C6E-C8C1-4670-9F0A-41C173DAAE06";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DB713C6E-C8C1-4670-9F0A-41C173DAAE06";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -402,11 +426,15 @@
 		A5D0B48216E89D04002E79E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ramachandra Acharya (66ANZ2UC56)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ramachandra Acharya (66ANZ2UC56)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoverPhotoEditor/CoverPhotoEditor-Prefix.pch";
 				INFOPLIST_FILE = "CoverPhotoEditor/CoverPhotoEditor-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "DB713C6E-C8C1-4670-9F0A-41C173DAAE06";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DB713C6E-C8C1-4670-9F0A-41C173DAAE06";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
