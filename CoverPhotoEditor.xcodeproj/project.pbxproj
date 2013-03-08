@@ -159,6 +159,9 @@
 				A5D0B48416E89D66002E79E2 /* HomeViewController.h */,
 				A5D0B48516E89D66002E79E2 /* HomeViewController.m */,
 				A5D0B48616E89D66002E79E2 /* HomeViewController.xib */,
+				B1F9268116E8D19800025D6B /* LayoutViewController.h */,
+				B1F9268216E8D19800025D6B /* LayoutViewController.m */,
+				B1F9268316E8D19800025D6B /* LayoutViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
