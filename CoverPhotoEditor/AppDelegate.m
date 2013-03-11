@@ -18,7 +18,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
    // self.viewController = [[HomeViewController alloc] initWithNibName:@"HomeViewController" bundle:nil];
-    PhotoEditorViewController *photoEditorViewController = [[PhotoEditorViewController alloc] initWithImage:nil completionHandler:NULL];
+    PhotoEditorViewController *photoEditorViewController = [[PhotoEditorViewController alloc] initWithImage:[UIImage imageNamed:@"crop.png"] completionHandler:NULL];
     self.window.rootViewController = photoEditorViewController;
     [self.window makeKeyAndVisible];
     return YES;

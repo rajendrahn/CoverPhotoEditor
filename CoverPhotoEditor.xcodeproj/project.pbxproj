@@ -40,6 +40,8 @@
 		DE75422316E9EE980094ED98 /* flip.png in Resources */ = {isa = PBXBuildFile; fileRef = DE75421D16E9EE980094ED98 /* flip.png */; };
 		DE75422416E9EE980094ED98 /* text.png in Resources */ = {isa = PBXBuildFile; fileRef = DE75421E16E9EE980094ED98 /* text.png */; };
 		DE75422516E9EE980094ED98 /* tune.png in Resources */ = {isa = PBXBuildFile; fileRef = DE75421F16E9EE980094ED98 /* tune.png */; };
+		DE75422816E9F5CD0094ED98 /* EffectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE75422716E9F5CD0094ED98 /* EffectsViewController.m */; };
+		DE75422E16E9F6ED0094ED98 /* EffectsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE75422D16E9F6ED0094ED98 /* EffectsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +92,9 @@
 		DE75421D16E9EE980094ED98 /* flip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flip.png; sourceTree = "<group>"; };
 		DE75421E16E9EE980094ED98 /* text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text.png; sourceTree = "<group>"; };
 		DE75421F16E9EE980094ED98 /* tune.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tune.png; sourceTree = "<group>"; };
+		DE75422616E9F5CD0094ED98 /* EffectsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EffectsViewController.h; sourceTree = "<group>"; };
+		DE75422716E9F5CD0094ED98 /* EffectsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EffectsViewController.m; sourceTree = "<group>"; };
+		DE75422D16E9F6ED0094ED98 /* EffectsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EffectsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +204,9 @@
 				A5D0B48416E89D66002E79E2 /* HomeViewController.h */,
 				A5D0B48516E89D66002E79E2 /* HomeViewController.m */,
 				A5D0B48616E89D66002E79E2 /* HomeViewController.xib */,
+				DE75422616E9F5CD0094ED98 /* EffectsViewController.h */,
+				DE75422716E9F5CD0094ED98 /* EffectsViewController.m */,
+				DE75422D16E9F6ED0094ED98 /* EffectsViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -340,6 +348,7 @@
 				DE75422316E9EE980094ED98 /* flip.png in Resources */,
 				DE75422416E9EE980094ED98 /* text.png in Resources */,
 				DE75422516E9EE980094ED98 /* tune.png in Resources */,
+				DE75422E16E9F6ED0094ED98 /* EffectsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +371,7 @@
 				DE7541E616E9D57F0094ED98 /* PhotoEditorViewController.m in Sources */,
 				DE7541ED16E9D5A30094ED98 /* EditOptionScrollView.m in Sources */,
 				DE7541EE16E9D5A30094ED98 /* EditOptionView.m in Sources */,
+				DE75422816E9F5CD0094ED98 /* EffectsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
